@@ -23,5 +23,5 @@ export async function addToList(listId, asin, qty) {
 }
 
 export function redirectUrl(listId) {
-  return `https://www.amazon.in/hz/wishlist/ls/${listId}?ref_=wl_share&tag=${process.env.AFFILIATE_TAG}`;
+  return `https://www.amazon.in/hz/wishlist/ls/${listId}?ref_=wl_share&tag=${process.env.AFFILIATE_TAG_IN}`;
 }
