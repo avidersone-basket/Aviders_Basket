@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 const wishlists = [
   "2UXWTCZV1NEL2",
   "KRF7Z0109CDU",
